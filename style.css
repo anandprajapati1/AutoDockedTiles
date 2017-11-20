@@ -1,0 +1,21 @@
+body{
+    /* background: lightgray; */
+}
+.tile-container {
+    width: 860px;
+    margin: auto;
+    min-height: 1200px;
+}
+.tile {
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    transition: margin .4s ease .3s;
+}
+.tile:nth-child(3n+1){
+    clear: left;
+}
+.tile.big {
+}

@@ -34,4 +34,15 @@ function generateRandom (sectionCount) {
 
   $('.tile:eq(' + ((sectionCount * 6) + x1) + ')').addClass('big')
   $('.tile:eq(' + ((sectionCount * 6) + x2) + ')').addClass('big')
+
+  if (Math.abs((x1 % 3) - (x2 % 3)) != 2) {
+    // if (Math.abs((x1 % 3) - (x2 % 3)) == 1)
+    if ((x1 % 3) > (x2 % 3)) {
+      $('.tile:eq(' + ((sectionCount * 6) + 0) + ')').css('margin-left', '110px')
+    }else {
+      // if ((x2 % 3) > (x1 % 3))
+      $('.tile:eq(' + ((sectionCount * 6) + 3) + ')').css('margin-left', '110px')
+    }
+  }
+  $('.tile:eq(' + ((sectionCount * 6) + (x1 > x2 ? x1 : x2)) + ')').css('margin-top', '-90px')
 }

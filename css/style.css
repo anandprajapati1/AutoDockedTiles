@@ -19,3 +19,7 @@
     height: 300px;
     background: yellowgreen;
 }
+.reload{
+    display: block;
+    margin: auto;
+}

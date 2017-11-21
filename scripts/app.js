@@ -5,8 +5,6 @@ $(document).ready(function () {
     generateRandom(sectionCount)
     sectionCount++
   }
-
-  $('body').on('click', function () {window.location.reload()})
 })
 
 function generateRandom (sectionCount) {

@@ -5,30 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>AutoDockedTiles</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./scripts/jquery-3.2.1.min.js"></script>
     <script src="./scripts/app.js"></script>
 </head>
 
 <body>
-    <br>
-    <input type="button" class="reload" value="Reload" onclick="javascript:window.location.reload()">
-    <br>
-    <div class="tile-container">
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-    </div>
+	<input type="button" class="full-screen-btn" value="Fullscreen" onclick="toggleFullScreen(this)">
+	<br>
+	<div class="parent-container">
+		<div class="tile-container">
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+			<div class="tile"></div>
+		</div>
+		<br>
+		<div class="text-center">
+			<input type="button" class="load-more" value="Load more" onclick="addMoreTiles()">
+		</div>
+	</div>
 
 </body>
 

@@ -7,7 +7,7 @@ Suppose we have tiles of two sizes and and **only one big tile can come in a row
 ![before](https://anandprajapati1.github.io/AutoDockedTiles/images/comparision.png)
 
 ## Case 2 - Tiles with fixed width but with 2 varient of heights
-Coming soon !
+Work in progress !
 
 ## Case 3 - Tiles with fixed width but variable heights
-Coming soon !
+Work in progress !
